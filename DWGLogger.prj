@@ -1,0 +1,15 @@
+;;; VLisp project file [V2.0] DWGLogger saved to:[C:/Users/Alexander/Dropbox/AutodeskApps/DWGLogger] at:[9/2/14] 
+(VLISP-PROJECT-LIST :NAME
+		    DWGLogger
+		    :OWN-LIST
+		    ("DWGLogger")
+		    :FAS-DIRECTORY
+		    "C:\\Users\\Alexander\\Dropbox\\AutodeskApps\\DWGLogger"
+		    :TMP-DIRECTORY
+		    "C:\\Temp"
+		    :PROJECT-KEYS
+		    (:BUILD (:standard) :MERGED nil :SAFE-MODE T :MSGLEVEL 1)
+		    :CONTEXT-ID
+		    :AUTOLISP
+)
+;;; EOF

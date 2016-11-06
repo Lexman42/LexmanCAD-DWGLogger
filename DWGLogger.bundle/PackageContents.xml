@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" AppVersion="1.0" Author="LexmanCAD" ProductCode="{36e15832-cc15-434a-b351-64c55a61efda}" Name="DWGLogger" Icon="./Contents/Resources/Icons/DWGLogger80ICO.ico" AutodeskProduct="AutoCAD" Description="Maintain a drawing-embedded log of the save history of AutoCAD drawings." ProductType="Application" SupportedLocales="Enu" AppNameSpace="appstore.exchange.autodesk.com" OnlineDocumentation="www.facebook.com/LexmanCAD">
+  <CompanyDetails Name="LexmanCAD" Email="Lexman@LexmanCAD.com" Url="www.facebook.com/LexmanCAD" Phone=" " />
+  <Components Description="2013 to 2015 parts">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win32|Win64" Platform="AutoCAD" SeriesMin="R19.0" SeriesMax="R20.0" />
+    <ComponentEntry AppName="DWGLogger" Version="1.0" ModuleName="./Contents/Windows/DWGLogger.fas" AppDescription="Maintain a drawing-embedded log of the save history of AutoCAD drawings." PerDocument="True" LoadOnAutoCADStartup="True" LoadOnCommandInvocation="False">
+      <Commands>
+        <Command Local="LCAD_DISPLAYLOG" Global="LCAD_DISPLAYLOG" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="DWGLogger" Version="1.0" ModuleName="./Contents/Windows/DWGLogger.cuix" AppDescription="Maintain a drawing-embedded log of the save history of AutoCAD drawings." PerDocument="True" LoadOnAutoCADStartup="True" LoadOnCommandInvocation="False"/>
+  </Components>
+</ApplicationPackage>
